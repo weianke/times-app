@@ -28,7 +28,7 @@ const TabsLayout = () => {
       <Tabs.Screen
         name="affirmations"
         options={{
-          tabBarLabel: "阅读",
+          tabBarLabel: "欣赏",
           tabBarIcon: ({ color }) => (
             <Entypo name="open-book" size={24} color={color} />
           ),

@@ -1,181 +1,180 @@
 import images from "@/constants/affirmation-images";
 
 const AFFIRMATION_GALLERY = [
-    {
-        title: "Positivity",
-        data: [
-            {
-                id: 1,
-                text: "Every day brings new opportunities to grow and excel. I am constantly evolving and improving. My positive mindset attracts abundance and success. I am grateful for the journey and the lessons it brings.",
-                image: images.californiaBackyardOne,
-            },
-            {
-                id: 2,
-                text: "I am the architect of my destiny, and I build it with positivity and determination. Challenges are stepping stones to my greatness. I embrace each moment with enthusiasm and confidence. My future is bright and limitless.",
-                image: images.californiaBackyardTwo,
-            },
-            {
-                id: 3,
-                text: "I radiate positivity and inspire those around me. My energy is contagious, and it fuels my drive to succeed. I focus on solutions, not problems, and I am resilient in the face of adversity. I am committed to living a life of purpose and joy.",
-                image: images.californiaBackyardThree,
-            },
-            {
-                id: 4,
-                text: "I believe in my potential and trust the process of life. Every setback is a setup for a greater comeback. I choose to see the good in every situation and remain optimistic. My passion and persistence are the keys to my unstoppable success.",
-                image: images.californiaBackyardFour,
-            },
-        ],
-    },
-    {
-        title: "Reduce Anxiety",
-        data: [
-            {
-                id: 5,
-                text: "I am in control of my thoughts, and I choose peace over worry. Each breath I take calms my mind and soothes my soul. I release the need to stress over what I cannot control. I am strong, capable, and at ease in all situations.",
-                image: images.englishCountrysideOne,
-            },
-            {
-                id: 6,
-                text: "I embrace calmness and serenity as my natural state of being. My mind is clear, my heart is light, and I am present in this moment. Anxiety has no power over me, for I am resilient and grounded. I trust in my ability to handle whatever comes my way.",
-                image: images.englishCountrysideTwo,
-            },
-            {
-                id: 7,
-                text: "Every day, I grow more confident in managing my stress and anxiety. I focus on positive thoughts and let go of fears that do not serve me. I am surrounded by support and love, and I embrace the peace within me. My inner strength guides me through any challenge with grace and calm.",
-                image: images.englishCountrysideThree,
-            },
-            {
-                id: 8,
-                text: "I release tension and embrace relaxation in my mind and body. I am safe, I am loved, and I am free from the grip of anxiety. Each step I take is filled with confidence and tranquility. I choose to live in the present moment, where peace and joy reside.",
-                image: images.englishCountrysideFour,
-            },
-        ],
-    },
-    {
-        title: "Success",
-        data: [
-            {
-                id: 9,
-                text: "I am destined for greatness, and every step I take leads me closer to success. My dedication and hard work are the building blocks of my achievements. I see opportunities where others see obstacles. Success is my journey, and I embrace it with passion and perseverance.",
-                image: images.mountainMeditateOne,
-            },
-            {
-                id: 10,
-                text: "I am a powerful creator of my destiny, and I attract success effortlessly. My vision is clear, my goals are set, and my actions are aligned with my highest purpose. I celebrate each victory, no matter how small, as a stepping stone to my ultimate triumph. I am unstoppable, and my potential is limitless.",
-                image: images.mountainMeditateTwo,
-            },
-            {
-                id: 11,
-                text: "I believe in my abilities and trust the process of achieving success. Challenges are opportunities for growth and refinement. I am focused, driven, and committed to my goals. Success flows to me naturally because I am prepared and deserving.",
-                image: images.mountainMeditateThree,
-            },
-            {
-                id: 12,
-                text: "I am a magnet for success and abundance in all areas of my life. My mindset is positive, and my actions are intentional. I learn from every experience and continuously improve. Success is not a destination but a journey I enjoy every day.",
-                image: images.mountainMeditateFour,
-            },
-        ],
-    },
-    {
-        title: "Self-Belief",
-        data: [
-            {
-                id: 13,
-                text: "I believe in my infinite potential and trust my inner wisdom. Every day, I grow more confident in my abilities and my purpose. I am capable of achieving greatness and worthy of all my dreams. My self-belief is the foundation of my success.",
-                image: images.nightSkyOne,
-            },
-            {
-                id: 14,
-                text: "I trust myself and my journey, knowing I have everything I need within me. My unique strengths and talents guide me towards my goals. I am resilient and can overcome any challenge that comes my way. My belief in myself fuels my determination and courage.",
-                image: images.nightSkyTwo,
-            },
-            {
-                id: 15,
-                text: "I am confident in who I am and what I have to offer the world. Each step I take is filled with purpose and self-assurance. I embrace my individuality and celebrate my achievements. My self-belief empowers me to create the life I desire.",
-                image: images.nightSkyThree,
-            },
-            {
-                id: 16,
-                text: "I am the master of my destiny and believe in my ability to shape my future. My thoughts are powerful, and I choose to think positively about myself. I am worthy of success and happiness. With each passing day, my self-belief grows stronger and unwavering.",
-                image: images.nightSkyFour,
-            },
-        ],
-    },
-    {
-        title: "Mental Health",
-        data: [
-            {
-                id: 17,
-                text: "I prioritize my mental health and nurture my mind with positivity and care. I am resilient and capable of overcoming any challenge that comes my way. Each day, I grow stronger, more balanced, and more at peace. My mental well-being is a cornerstone of my overall success.",
-                image: images.oregonOne,
-            },
-            {
-                id: 18,
-                text: "I embrace the journey of healing and growth, knowing that my mental health is worth every effort. I am patient with myself and recognize my progress, no matter how small. Positive thoughts and actions uplift my spirit and renew my strength. I am in control of my mental well-being and choose to thrive.",
-                image: images.oregonTwo,
-            },
-            {
-                id: 19,
-                text: "I am mindful of my thoughts and choose to focus on what brings me joy and peace. My mind is a powerful tool, and I use it to create a life of happiness and fulfillment. I am deserving of self-care and take time to nurture my mental health daily. With each breath, I release stress and embrace calmness.",
-                image: images.oregonThree,
-            },
-            {
-                id: 20,
-                text: "I am committed to maintaining a healthy mind and nurturing my emotional well-being. I surround myself with positive influences and seek support when needed. My mental health is a priority, and I take proactive steps to protect and enhance it. I am grateful for my resilience and the strength it brings to my life.",
-                image: images.oregonFour,
-            },
-        ],
-    },
-    {
-        title: "Law of Attraction",
-        data: [
-            {
-                id: 21,
-                text: "I am a powerful magnet for all that I desire, attracting abundance and success effortlessly. My thoughts are aligned with positivity, and I visualize my goals with clarity and conviction. The universe responds to my optimistic energy, bringing opportunities and blessings into my life. I am grateful for the manifestations that unfold each day.",
-                image: images.relaxingRiverOne,
-            },
-            {
-                id: 22,
-                text: "I attract success, love, and prosperity with every positive thought I have. My mind is a beacon of positivity, drawing the best into my life. I focus on what I want, not on what I fear, and the universe aligns to make it happen. I am worthy of all the good that comes my way, and I embrace it fully.",
-                image: images.relaxingRiverTwo,
-            },
-            {
-                id: 23,
-                text: "I am in harmony with the universal laws and trust that everything I desire is on its way to me. My energy is vibrant and magnetic, attracting abundance in all areas of my life. I believe in the power of my intentions and the certainty of their manifestation. Every day, I see evidence of my desires becoming reality.",
-                image: images.relaxingRiverThree,
-            },
-            {
-                id: 24,
-                text: "I consciously create my reality through my thoughts, feelings, and actions. I attract people and circumstances that support my growth and happiness. My positive mindset and unwavering belief in my dreams set the stage for their manifestation. I am grateful for the abundance and joy that flow into my life effortlessly.",
-                image: images.relaxingRiverFour,
-            },
-        ],
-    },
-    {
-        title: "Limiting Beliefs",
-        data: [
-            {
-                id: 25,
-                text: "I release all limiting beliefs and embrace my limitless potential. My mind is free from doubts, and I trust in my ability to achieve greatness. Each day, I replace negative thoughts with empowering beliefs. I am capable, worthy, and destined for success.",
-                image: images.tuscannyOne,
-            },
-            {
-                id: 26,
-                text: "I am no longer held back by past limitations; I create my own reality. My beliefs shape my future, and I choose to believe in my strength and potential. I break through barriers and achieve what I once thought impossible. My life is a reflection of my powerful, positive mindset.",
-                image: images.tuscannyTwo,
-            },
-            {
-                id: 27,
-                text: "I am the master of my thoughts, and I choose to eliminate all limiting beliefs. I see challenges as opportunities for growth and success. My potential is boundless, and I am constantly evolving into the best version of myself. I believe in my power to create a life of abundance and joy.",
-                image: images.tuscannyThree,
-            },
-            {
-                id: 28,
-                text: "I replace limiting beliefs with thoughts of possibility and greatness. My mind is a fertile ground for positive, empowering beliefs. I attract success and happiness because I believe I deserve them. Every step I take is guided by confidence and self-assurance, leading me to my highest potential.",
-                image: images.tuscannyFour,
-            },
-        ],
-    },
+  {
+    title: "积极性",
+    data: [
+      {
+        id: 1,
+        text: "每一天都带来新的机会，让我成长和卓越。我不断发展和改善。我的积极心态吸引着丰盛和成功。我对这段旅程和它带来的教训心怀感激。",
+        image: images.californiaBackyardOne,
+      },
+      {
+        id: 2,
+        text: "我是自己命运的建筑师，我用积极和决心来构建它。挑战是通往伟大的垫脚石。我以热情和信心拥抱每一刻。我的未来光明无限。",
+        image: images.californiaBackyardTwo,
+      },
+      {
+        id: 3,
+        text: "我散发着积极的能量，激励着周围的人。我的能量是具有感染力的，推动着我成功。我专注于解决方案，而不是问题，在逆境面前我坚定不移。我致力于过上充满目的和快乐的生活。",
+        image: images.californiaBackyardThree,
+      },
+      {
+        id: 4,
+        text: "我相信自己的潜力，并信任生命的过程。每一次挫折都是更大反弹的准备。我选择看到每种情况中的美好，并保持乐观。我的热情和坚持是我不可阻挡成功的关键。",
+        image: images.californiaBackyardFour,
+      },
+    ],
+  },
+  {
+    title: "减轻焦虑",
+    data: [
+      {
+        id: 5,
+        text: "我控制着自己的思想，选择平静而非担忧。我呼吸的每一口气都使我的心灵平静，抚慰我的灵魂。我释放对无法控制之事的压力。我在任何情况下都坚强、能干、心安。",
+        image: images.englishCountrysideOne,
+      },
+      {
+        id: 6,
+        text: "我拥抱平静和宁静作为我自然的状态。我的思想清晰，内心轻松，我活在当下。焦虑对我没有影响，因为我坚韧不拔，脚踏实地。我相信自己有能力应对任何挑战。",
+        image: images.englishCountrysideTwo,
+      },
+      {
+        id: 7,
+        text: "每一天，我在管理压力和焦虑方面变得更加自信。我专注于积极的思想，放下那些对我没有帮助的恐惧。我被支持和爱包围，拥抱内心的平静。我的内在力量引导我优雅而平静地度过任何挑战。",
+        image: images.englishCountrysideThree,
+      },
+      {
+        id: 8,
+        text: "我释放紧张，拥抱身心的放松。我安全，我被爱着，我摆脱了焦虑的束缚。我的每一步都充满自信与宁静。我选择活在当下，享受那里的平和与快乐。",
+        image: images.englishCountrysideFour,
+      },
+    ],
+  },
+  {
+    title: "成功",
+    data: [
+      {
+        id: 9,
+        text: "我注定要伟大，我走的每一步都让我更靠近成功。我的奉献和努力是我成就的基石。我在别人看到障碍时看到机会。成功是我的旅程，我以热情和毅力拥抱它。",
+        image: images.mountainMeditateOne,
+      },
+      {
+        id: 10,
+        text: "我是自己命运的强大创造者，自然吸引成功。我的愿景清晰，目标明确，我的行动与我的最高目标一致。我庆祝每一个胜利，无论多么微小，作为通往最终胜利的垫脚石。我势不可挡，我的潜力是无限的。",
+        image: images.mountainMeditateTwo,
+      },
+      {
+        id: 11,
+        text: "我相信自己的能力，信任成功的过程。挑战是成长和提升的机会。我专注、奋发、致力于我的目标。成功自然地流向我，因为我准备好并且值得。",
+        image: images.mountainMeditateThree,
+      },
+      {
+        id: 12,
+        text: "我是成功和丰盛的磁铁，吸引我生活各个方面的丰盛。我的心态是积极的，我的行动是有意图的。我从每一次经历中学习，不断进步。成功不是一个目的地，而是我每天享受的旅程。",
+        image: images.mountainMeditateFour,
+      },
+    ],
+  },
+  {
+    title: "自信",
+    data: [
+      {
+        id: 13,
+        text: "我相信自己的无限潜力，信任内心的智慧。每天，我都对自己的能力和目标更加自信。我有能力实现伟大，值得拥有我所有的梦想。自信是我成功的基础。",
+        image: images.nightSkyOne,
+      },
+      {
+        id: 14,
+        text: "我相信自己和我的旅程，知道我内心拥有一切。我独特的力量和才能引导我朝着目标前进。我坚韧不拔，能够克服任何挑战。相信自己是我决心和勇气的动力。",
+        image: images.nightSkyTwo,
+      },
+      {
+        id: 15,
+        text: "我对自己和自己能为世界提供的东西充满信心。我走的每一步都充满目的和自信。我欣然接受自己的独特性，庆祝我的成就。自信赋予我创造理想生活的能力。",
+        image: images.nightSkyThree,
+      },
+      {
+        id: 16,
+        text: "我是自己命运的主人，相信我有能力塑造我的未来。我的思想是强大的，我选择对自己持积极态度。我值得成功和快乐。随着时间的推移，我的自信越来越强大，毫不动摇。",
+        image: images.nightSkyFour,
+      },
+    ],
+  },
+  {
+    title: "心理健康",
+    data: [
+      {
+        id: 17,
+        text: "我优先考虑我的心理健康，用积极和关怀滋养我的心灵。我坚韧不拔，能够克服任何挑战。每一天，我变得更强大、更平衡、更平静。我的心理健康是我整体成功的重要基石。",
+        image: images.oregonOne,
+      },
+      {
+        id: 18,
+        text: "我拥抱治疗和成长的旅程，知道我的心理健康值得每一份努力。我对自己保持耐心，认识到自己的进步，无论多么微小。积极的思想和行动提升我的精神，更新我的力量。我掌控自己的心理健康，选择茁壮成长。",
+        image: images.oregonTwo,
+      },
+      {
+        id: 19,
+        text: "我时刻关注自己的思想，选择专注于带给我快乐和宁静的事物。我的心智是一个强大的工具，我用它创造快乐和满足的生活。我值得自我关怀，每天抽出时间滋养我的心理健康。每一次呼吸，我都释放压力，拥抱平静。",
+        image: images.oregonThree,
+      },
+      {
+        id: 20,
+        text: "我致力于维护健康的心智，滋养我的情感健康。我让自己周围的人充满积极影响，并在需要时寻求支持。我的心理健康是优先事项，我采取积极步骤来保护和增强它。我感激我的坚韧及其给我的生活带来的力量。",
+        image: images.oregonFour,
+      },
+    ],
+  },
+  {
+    title: "吸引力法则",
+    data: [
+      {
+        id: 21,
+        text: "我是所有我渴望事物的强大磁铁，轻松吸引丰盛和成功。我的思想与积极相一致，我清晰而坚定地想象我的目标。宇宙回应我乐观的能量，把机会和祝福带入我的生活。每天我都对我实现的愿望心怀感激。",
+        image: images.relaxingRiverOne,
+      },
+      {
+        id: 22,
+        text: "我用每一个积极的思想吸引成功、爱和繁荣。我的心灵是积极的灯塔，把最好的事物吸引到我的生活中。我专注于我想要的，而不是我害怕的，宇宙会为此而调整。我值得所有美好的事物，我完全接受它们。",
+        image: images.relaxingRiverTwo,
+      },
+      {
+        id: 23,
+        text: "我与宇宙法则和谐共处，相信我渴望的一切都在向我走来。我的能量充满活力，吸引着我生活各个方面的丰盛。我相信自己意图的力量以及它们实现的确定性。每天，我都看到我的愿望变为现实的证据。",
+        image: images.relaxingRiverThree,
+      },
+      {
+        id: 24,
+        text: "我通过思想、情感和行动有意识地创造我的现实。我吸引支持我成长和幸福的人和环境。我的积极心态和对梦想的坚定信念为它们的实现奠定了基础。我感激丰盛和快乐的顺畅流入我的生活。",
+        image: images.relaxingRiverFour,
+      },
+    ],
+  },
+  {
+    title: "限制性信念",
+    data: [
+      {
+        id: 25,
+        text: "我释放所有限制性信念，拥抱我的无限潜力。我的思想不再受疑虑的束缚，我信任自己实现伟大的能力。每天，我用积极的信念取代消极的想法。我是有能力的，值得的，注定要成功。",
+        image: images.tuscannyOne,
+      },
+      {
+        id: 26,
+        text: "我不再被过去的限制束缚；我创造自己的现实。我的信念塑造我的未来，我选择相信自己的力量和潜力。我突破障碍，实现曾经认为不可能的目标。我的生活反映了我强大、积极的心态。",
+        image: images.tuscannyTwo,
+      },
+      {
+        id: 27,
+        text: "我是自己思想的主人，选择消除所有限制性信念。我将挑战视为成长和成功的机会。我的潜力是无穷无尽的，我不断演变成最好的自己。我相信自己创造丰盛和快乐生活的能力。",
+        image: images.tuscannyThree,
+      },
+      {
+        id: 28,
+        text: "我用可能性和伟大的思想取代限制性信念。我的思想是积极、赋权信念的肥沃土壤。我吸引成功和快乐，因为我相信自己值得它们。我的每一步都充满自信和自信，引导我走向我的最高潜力。",
+        image: images.tuscannyFour,
+      },
+    ],
+  },
 ];
-
 export default AFFIRMATION_GALLERY;
