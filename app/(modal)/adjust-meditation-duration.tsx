@@ -29,7 +29,7 @@ const AdjustMeditationDuration = () => {
         <View className="justify-center h-4/5">
           <View>
             <Text className="text-center font-bold text-3xl text-white mb-8">
-              Adjust your meditation duration
+              选择冥想时间
             </Text>
           </View>
 

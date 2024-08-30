@@ -45,10 +45,13 @@ const Page = () => {
 
   useEffect(() => {
     return () => {
-      setDuration(10);
       audioSound?.unloadAsync();
     };
   }, [audioSound]);
+
+  useEffect(() => {
+    setDuration(10);
+  }, []);
 
   const initializeSound = async () => {
     const audioFileName = MEDITATION_DATA[Number(id) - 1].audio;
